@@ -22,9 +22,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build  # Replace with your build command
-
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1
         with:
